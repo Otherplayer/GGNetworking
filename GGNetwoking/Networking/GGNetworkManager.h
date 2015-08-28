@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GGBaseNetwork.h"
+#import "GGNTConfiguration.h"
 
 @interface GGNetworkManager : NSObject
 
 + (instancetype)sharedManager;
 
-
+/// 获取类型数据
 - (void)getTopTypesWithParameters:(NSDictionary *)parameters completedHandler:(GGRequestCallbackBlock)completed timeout:(GGRequestTimeoutBlock)timeoutBlock;
 
 

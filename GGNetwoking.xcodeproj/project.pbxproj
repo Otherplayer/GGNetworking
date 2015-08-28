@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638E15581B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E15571B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.m */; };
+		638E155B1B8FFC2900345341 /* NSArray+GGNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E155A1B8FFC2900345341 /* NSArray+GGNetworkingMethods.m */; };
+		638E155E1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E155D1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.m */; };
+		638E15611B8FFD4800345341 /* NSObject+GGNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E15601B8FFD4800345341 /* NSObject+GGNetworkingMethods.m */; };
+		638E15641B8FFFD700345341 /* GGNTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E15631B8FFFD600345341 /* GGNTManager.m */; };
 		63DAA5311B8DC60A0029AA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAA5301B8DC60A0029AA8A /* main.m */; };
 		63DAA5341B8DC60A0029AA8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAA5331B8DC60A0029AA8A /* AppDelegate.m */; };
 		63DAA5371B8DC60A0029AA8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAA5361B8DC60A0029AA8A /* ViewController.m */; };
@@ -14,6 +19,14 @@
 		63DAA53C1B8DC60A0029AA8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DAA53B1B8DC60A0029AA8A /* Images.xcassets */; };
 		63DAA53F1B8DC60A0029AA8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DAA53D1B8DC60A0029AA8A /* LaunchScreen.xib */; };
 		63DAA54B1B8DC60A0029AA8A /* GGNetwokingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAA54A1B8DC60A0029AA8A /* GGNetwokingTests.m */; };
+		63DAA56E1B8EBEE50029AA8A /* GGTopDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DAA56D1B8EBEE50029AA8A /* GGTopDataSource.m */; };
+		63F9C19A1B8F69FC00C9AA2B /* GGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C1811B8F69FC00C9AA2B /* GGCache.m */; };
+		63F9C19B1B8F69FC00C9AA2B /* GGCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C1831B8F69FC00C9AA2B /* GGCachedObject.m */; };
+		63F9C19E1B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C18A1B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.m */; };
+		63F9C1A21B8F69FC00C9AA2B /* GGLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C1931B8F69FC00C9AA2B /* GGLogger.m */; };
+		63F9C1A31B8F69FC00C9AA2B /* GGBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C1961B8F69FC00C9AA2B /* GGBaseNetwork.m */; };
+		63F9C1A41B8F69FC00C9AA2B /* GGURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C1991B8F69FC00C9AA2B /* GGURLResponse.m */; };
+		852401F698B9D58F8A75C968 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FA5B85F5C7F0133F08A92E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		638E15561B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GGNetworkingMethods.h"; sourceTree = "<group>"; };
+		638E15571B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GGNetworkingMethods.m"; sourceTree = "<group>"; };
+		638E15591B8FFC2900345341 /* NSArray+GGNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GGNetworkingMethods.h"; sourceTree = "<group>"; };
+		638E155A1B8FFC2900345341 /* NSArray+GGNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GGNetworkingMethods.m"; sourceTree = "<group>"; };
+		638E155C1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+GGNetworkingMethods.h"; sourceTree = "<group>"; };
+		638E155D1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+GGNetworkingMethods.m"; sourceTree = "<group>"; };
+		638E155F1B8FFD4800345341 /* NSObject+GGNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GGNetworkingMethods.h"; sourceTree = "<group>"; };
+		638E15601B8FFD4800345341 /* NSObject+GGNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GGNetworkingMethods.m"; sourceTree = "<group>"; };
+		638E15621B8FFFD600345341 /* GGNTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNTManager.h; sourceTree = "<group>"; };
+		638E15631B8FFFD600345341 /* GGNTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGNTManager.m; sourceTree = "<group>"; };
 		63DAA52B1B8DC60A0029AA8A /* GGNetwoking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGNetwoking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DAA52F1B8DC60A0029AA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DAA5301B8DC60A0029AA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +63,26 @@
 		63DAA5441B8DC60A0029AA8A /* GGNetwokingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGNetwokingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DAA5491B8DC60A0029AA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DAA54A1B8DC60A0029AA8A /* GGNetwokingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGNetwokingTests.m; sourceTree = "<group>"; };
+		63DAA5541B8DCB3C0029AA8A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63DAA5551B8DCC0A0029AA8A /* AppGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGlobal.h; sourceTree = "<group>"; };
+		63DAA56C1B8EBEE50029AA8A /* GGTopDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTopDataSource.h; sourceTree = "<group>"; };
+		63DAA56D1B8EBEE50029AA8A /* GGTopDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTopDataSource.m; sourceTree = "<group>"; };
+		63F9C1801B8F69FC00C9AA2B /* GGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCache.h; sourceTree = "<group>"; };
+		63F9C1811B8F69FC00C9AA2B /* GGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCache.m; sourceTree = "<group>"; };
+		63F9C1821B8F69FC00C9AA2B /* GGCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCachedObject.h; sourceTree = "<group>"; };
+		63F9C1831B8F69FC00C9AA2B /* GGCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCachedObject.m; sourceTree = "<group>"; };
+		63F9C1891B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+GGNetworkMethods.h"; sourceTree = "<group>"; };
+		63F9C18A1B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+GGNetworkMethods.m"; sourceTree = "<group>"; };
+		63F9C1921B8F69FC00C9AA2B /* GGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLogger.h; sourceTree = "<group>"; };
+		63F9C1931B8F69FC00C9AA2B /* GGLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLogger.m; sourceTree = "<group>"; };
+		63F9C1951B8F69FC00C9AA2B /* GGBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBaseNetwork.h; sourceTree = "<group>"; };
+		63F9C1961B8F69FC00C9AA2B /* GGBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBaseNetwork.m; sourceTree = "<group>"; };
+		63F9C1971B8F69FC00C9AA2B /* GGNTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNTConfiguration.h; sourceTree = "<group>"; };
+		63F9C1981B8F69FC00C9AA2B /* GGURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGURLResponse.h; sourceTree = "<group>"; };
+		63F9C1991B8F69FC00C9AA2B /* GGURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGURLResponse.m; sourceTree = "<group>"; };
+		68FA5B85F5C7F0133F08A92E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73518D794A7AD7013423F19E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9462DC747BB39BD2CABFDBFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852401F698B9D58F8A75C968 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BAE438E8535FF23B54C42B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73518D794A7AD7013423F19E /* Pods.debug.xcconfig */,
+				9462DC747BB39BD2CABFDBFF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		63DAA5221B8DC60A0029AA8A = {
 			isa = PBXGroup;
 			children = (
 				63DAA52D1B8DC60A0029AA8A /* GGNetwoking */,
 				63DAA5471B8DC60A0029AA8A /* GGNetwokingTests */,
 				63DAA52C1B8DC60A0029AA8A /* Products */,
+				3BAE438E8535FF23B54C42B2 /* Pods */,
+				686D96542B75E8E30579E443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +136,9 @@
 		63DAA52D1B8DC60A0029AA8A /* GGNetwoking */ = {
 			isa = PBXGroup;
 			children = (
+				63F9C17E1B8F69FC00C9AA2B /* Networking */,
+				63DAA5681B8EBCD20029AA8A /* Model */,
+				63DAA5551B8DCC0A0029AA8A /* AppGlobal.h */,
 				63DAA5321B8DC60A0029AA8A /* AppDelegate.h */,
 				63DAA5331B8DC60A0029AA8A /* AppDelegate.m */,
 				63DAA5351B8DC60A0029AA8A /* ViewController.h */,
@@ -98,6 +156,7 @@
 			children = (
 				63DAA52F1B8DC60A0029AA8A /* Info.plist */,
 				63DAA5301B8DC60A0029AA8A /* main.m */,
+				63DAA5541B8DCB3C0029AA8A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +178,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63DAA5681B8EBCD20029AA8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63DAA56C1B8EBEE50029AA8A /* GGTopDataSource.h */,
+				63DAA56D1B8EBEE50029AA8A /* GGTopDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		63F9C17E1B8F69FC00C9AA2B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C17F1B8F69FC00C9AA2B /* Cache */,
+				63F9C1841B8F69FC00C9AA2B /* Categories */,
+				63F9C1911B8F69FC00C9AA2B /* Logger */,
+				63F9C1941B8F69FC00C9AA2B /* NetworkingConfiguration */,
+				638E15621B8FFFD600345341 /* GGNTManager.h */,
+				638E15631B8FFFD600345341 /* GGNTManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		63F9C17F1B8F69FC00C9AA2B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C1801B8F69FC00C9AA2B /* GGCache.h */,
+				63F9C1811B8F69FC00C9AA2B /* GGCache.m */,
+				63F9C1821B8F69FC00C9AA2B /* GGCachedObject.h */,
+				63F9C1831B8F69FC00C9AA2B /* GGCachedObject.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		63F9C1841B8F69FC00C9AA2B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C1891B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.h */,
+				63F9C18A1B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.m */,
+				638E15561B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.h */,
+				638E15571B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.m */,
+				638E15591B8FFC2900345341 /* NSArray+GGNetworkingMethods.h */,
+				638E155A1B8FFC2900345341 /* NSArray+GGNetworkingMethods.m */,
+				638E155C1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.h */,
+				638E155D1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.m */,
+				638E155F1B8FFD4800345341 /* NSObject+GGNetworkingMethods.h */,
+				638E15601B8FFD4800345341 /* NSObject+GGNetworkingMethods.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		63F9C1911B8F69FC00C9AA2B /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C1921B8F69FC00C9AA2B /* GGLogger.h */,
+				63F9C1931B8F69FC00C9AA2B /* GGLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		63F9C1941B8F69FC00C9AA2B /* NetworkingConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C1971B8F69FC00C9AA2B /* GGNTConfiguration.h */,
+				63F9C1981B8F69FC00C9AA2B /* GGURLResponse.h */,
+				63F9C1991B8F69FC00C9AA2B /* GGURLResponse.m */,
+				63F9C1951B8F69FC00C9AA2B /* GGBaseNetwork.h */,
+				63F9C1961B8F69FC00C9AA2B /* GGBaseNetwork.m */,
+			);
+			path = NetworkingConfiguration;
+			sourceTree = "<group>";
+		};
+		686D96542B75E8E30579E443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68FA5B85F5C7F0133F08A92E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63DAA54E1B8DC60A0029AA8A /* Build configuration list for PBXNativeTarget "GGNetwoking" */;
 			buildPhases = (
+				B2B723A0C2DC7B73BB169C90 /* Check Pods Manifest.lock */,
 				63DAA5271B8DC60A0029AA8A /* Sources */,
 				63DAA5281B8DC60A0029AA8A /* Frameworks */,
 				63DAA5291B8DC60A0029AA8A /* Resources */,
+				B23CC0B3771D2350B34DB2BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +354,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B23CC0B3771D2350B34DB2BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B723A0C2DC7B73BB169C90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63DAA5271B8DC60A0029AA8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F9C1A21B8F69FC00C9AA2B /* GGLogger.m in Sources */,
 				63DAA5371B8DC60A0029AA8A /* ViewController.m in Sources */,
+				63F9C19E1B8F69FC00C9AA2B /* NSMutableString+GGNetworkMethods.m in Sources */,
+				638E15641B8FFFD700345341 /* GGNTManager.m in Sources */,
 				63DAA5341B8DC60A0029AA8A /* AppDelegate.m in Sources */,
+				63F9C19A1B8F69FC00C9AA2B /* GGCache.m in Sources */,
+				638E15611B8FFD4800345341 /* NSObject+GGNetworkingMethods.m in Sources */,
+				63F9C1A41B8F69FC00C9AA2B /* GGURLResponse.m in Sources */,
+				63DAA56E1B8EBEE50029AA8A /* GGTopDataSource.m in Sources */,
+				63F9C19B1B8F69FC00C9AA2B /* GGCachedObject.m in Sources */,
+				638E155E1B8FFC7700345341 /* NSURLRequest+GGNetworkingMethods.m in Sources */,
+				638E15581B8FFBD600345341 /* NSDictionary+GGNetworkingMethods.m in Sources */,
+				638E155B1B8FFC2900345341 /* NSArray+GGNetworkingMethods.m in Sources */,
 				63DAA5311B8DC60A0029AA8A /* main.m in Sources */,
+				63F9C1A31B8F69FC00C9AA2B /* GGBaseNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +532,14 @@
 		};
 		63DAA54F1B8DC60A0029AA8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73518D794A7AD7013423F19E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Otherplayer/Desktop/GGNetwoking/GGNetwoking/PrefixHeader.pch;
 				INFOPLIST_FILE = GGNetwoking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +547,14 @@
 		};
 		63DAA5501B8DC60A0029AA8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9462DC747BB39BD2CABFDBFF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Otherplayer/Desktop/GGNetwoking/GGNetwoking/PrefixHeader.pch;
 				INFOPLIST_FILE = GGNetwoking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +613,7 @@
 				63DAA5501B8DC60A0029AA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63DAA5511B8DC60A0029AA8A /* Build configuration list for PBXNativeTarget "GGNetwokingTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +622,7 @@
 				63DAA5531B8DC60A0029AA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

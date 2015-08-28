@@ -10,4 +10,6 @@
 
 @interface NSURLRequest (GGNetworkingMethods)
 
+@property (nonatomic, copy) NSDictionary *requestParams;
+
 @end

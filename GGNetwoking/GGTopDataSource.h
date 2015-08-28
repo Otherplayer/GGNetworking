@@ -10,4 +10,10 @@
 
 @interface GGTopDataSource : NSObject
 
+- (void)loadData;
+
+- (void)loadDynamic;
+
+
+
 @end

@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (GGNetworkingMethods)
-
+- (NSString *)urlParamsStringSignature:(BOOL)isForSignature;
+- (NSString *)jsonString;
+- (NSArray *)transformedUrlParamsArraySignature:(BOOL)isForSignature;
 @end

@@ -7,8 +7,8 @@
 //
 
 #import "GGURLResponse.h"
-#import "NSURLRequest+AIFNetworkingMethods.h"
-#import "NSObject+AXNetworkingMethods.h"
+#import "NSURLRequest+GGNetworkingMethods.h"
+#import "NSObject+GGNetworkingMethods.h"
 @interface GGURLResponse ()
 @property (nonatomic, copy, readwrite) NSString *responseString;
 @property (nonatomic, copy, readwrite) id responseObject;

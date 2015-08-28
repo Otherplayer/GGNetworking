@@ -8,7 +8,7 @@
 
 #import "GGCache.h"
 #import "GGNTConfiguration.h"
-#import "NSDictionary+AXNetworkingMethods.h"
+#import "NSDictionary+GGNetworkingMethods.h"
 @interface GGCache ()
 
 @property (nonatomic, strong) NSCache *cache;
@@ -87,7 +87,7 @@
 }
 
 - (NSString *)keyWithURLStr:(NSString *)urlStr params:(NSDictionary *)requestParams{
-    return [NSString stringWithFormat:@"%@%@", urlStr, [requestParams AIF_urlParamsStringSignature:NO]];
+    return [NSString stringWithFormat:@"%@%@", urlStr, [requestParams urlParamsStringSignature:NO]];
 }
 
 @end

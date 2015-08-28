@@ -10,4 +10,7 @@
 
 @interface NSObject (GGNetworkingMethods)
 
+- (id)defaultValue:(id)defaultData;
+- (BOOL)isEmptyObject;
+
 @end

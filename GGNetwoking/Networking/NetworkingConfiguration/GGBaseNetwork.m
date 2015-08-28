@@ -16,6 +16,7 @@ NSString *const kIMGKey = @"kIMGKey";
 @interface GGBaseNetwork ()
 @property (nonatomic, strong)GGCache *cache;
 @property (nonatomic, strong)NSMutableDictionary *dispatchList; //请求列表
+@property (nonatomic, strong)GGBaseNetwork *shareManager;
 @end
 
 @implementation GGBaseNetwork
@@ -124,7 +125,7 @@ NSString *const kIMGKey = @"kIMGKey";
         return;
     }
     
-    [self POST:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[GGBaseNetwork sharedNetwork] POST:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         [self isSuccessOperation:operation object:responseObject url:URLString params:parameters shouldCache:flag completedHandler:completed];
         
@@ -138,7 +139,7 @@ NSString *const kIMGKey = @"kIMGKey";
 
 - (void)POST:(NSString *)URLString params:(id)parameters images:(NSArray *)images imageSConfig:(NSString *)serviceName completed:(GGRequestCallbackBlock)completed timeout:(GGRequestTimeoutBlock)timeoutBlock{
     
-    [self POST:URLString parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    [[GGBaseNetwork sharedNetwork] POST:URLString parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         
         for (int i = 0; i < images.count; i++) {
             UIImage *image = [[images objectAtIndex:i] objectForKey:kIMGKey];
@@ -166,7 +167,7 @@ NSString *const kIMGKey = @"kIMGKey";
         return;
     }
     
-    [self GET:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[GGBaseNetwork sharedNetwork] GET:URLString parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         [self isSuccessOperation:operation object:responseObject url:URLString params:parameters shouldCache:flag completedHandler:completed];
         

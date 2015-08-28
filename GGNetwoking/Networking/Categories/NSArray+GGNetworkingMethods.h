@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSArray (GGNetworkingMethods)
+- (NSString *)paramsString;
+- (NSString *)jsonString;
 
 @end

@@ -10,4 +10,12 @@
 
 @interface GGNTManager : GGBaseNetwork
 
++ (instancetype)sharedManager;
+
+/// 获取一级类型列表
+- (void)getTopTypesWithParameters:(NSDictionary *)parameters completedHandler:(GGRequestCallbackBlock)completed timeout:(GGRequestTimeoutBlock)timeoutBlock;
+
+/// 获取动态
+- (void)getDynamicListWithParameters:(NSDictionary *)parameters completedHandler:(GGRequestCallbackBlock)completed timeout:(GGRequestTimeoutBlock)timeoutBlock;
+
 @end
