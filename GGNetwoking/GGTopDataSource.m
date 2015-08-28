@@ -37,20 +37,12 @@
     [paramsDictionary setValue:@"110593" forKey:@"uid"];
     [paramsDictionary setValue:@"get_main_info" forKey:@"action"];
     
-//    [self.manager getTopTypesWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
-//        //NSLog(@"%@",responseData);
-//    } timeout:^(NSInteger errCode, NSString *localizedDescription) {
-//        
-//    }];
-//    
-    
-    
-    
-    [[GGNTManager sharedManager] getTopTypesWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
+    [self.manager getTopTypesWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
         //NSLog(@"%@",responseData);
     } timeout:^(NSInteger errCode, NSString *localizedDescription) {
         
     }];
+    
 }
 
 - (void)loadDynamic{
@@ -69,27 +61,11 @@
     [paramsDictionary setObject:@"112478" forKey:@"uid"];
     [paramsDictionary setObject:@"" forKey:@"app_umeng"];
     [paramsDictionary setObject:@"4C648A69-E29D-4465-8677-3B9D90178333" forKey:@"mark"];
-    [self.manager getDynamicListWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
+    [[GGNTManager sharedManager] getDynamicListWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
         
     } timeout:^(NSInteger errCode, NSString *localizedDescription) {
         
     }];
 }
-
-//{
-//    "app_id" = "4C648A69-E29D-4465-8677-3B9D90178333";
-//    "app_name" = "\U7ea2\U6f14\U5708";
-//    "app_os" = ios;
-//    "app_os_ver" = "8.4";
-//    "app_token" = 7f891ce8b443674fc1dc70dd8a093496;
-//    "app_type" = "iPhone Simulator";
-//    "app_umeng" = "";
-//    "app_ver" = "1.24";
-//    "d_uid" = 112478;
-//    mark = "4C648A69-E29D-4465-8677-3B9D90178333";
-//    page = 1;
-//    size = 5;
-//    uid = 112478;
-//}
 
 @end
