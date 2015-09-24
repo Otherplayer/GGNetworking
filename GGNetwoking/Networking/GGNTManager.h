@@ -7,6 +7,7 @@
 //
 
 #import "GGBaseNetwork.h"
+#import <JSONModel.h>
 
 @interface GGNTManager : GGBaseNetwork
 

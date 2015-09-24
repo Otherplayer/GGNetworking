@@ -38,7 +38,7 @@
     [paramsDictionary setValue:@"get_main_info" forKey:@"action"];
     
     [self.manager getTopTypesWithParameters:paramsDictionary completedHandler:^(BOOL result, GGResponseErrCodeType errCode, id responseData) {
-        //NSLog(@"%@",responseData);
+        NSLog(@"%@",responseData);
     } timeout:^(NSInteger errCode, NSString *localizedDescription) {
         
     }];
